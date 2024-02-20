@@ -199,7 +199,7 @@ cube.sendMode((Controller_A3D8_Basic::InputMode)3);
 方便理解，作为示例，比如在`(Controller_A3D8_Basic::InputMode)0` 下，这个曲线所表明的`pScreen` 的地址映射是：\
 ![Alt text](images/image6.png)
 
-在这个模式下，若我们执行，对最上排的地址为0、2、4、6的四个地址的LED列进行修改，和发送数据，最上排的LED会根据对地址传入的byte数据的二进制状态进行点亮，如下\
+在这个模式下，若我们执行，对最上排的地址为0、2、4、6的四个地址的LED列进行修改，和发送数据，最上排的LED会根据对地址传入的byte数据的二进制状态进行点亮，如下
 
 ```cpp
 cube.sendMode((Controller_A3D8_Basic::InputMode)模式);
